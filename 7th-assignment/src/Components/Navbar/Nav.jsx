@@ -1,16 +1,16 @@
 const Nav = () => {
   return (
-    <div className="container mx-auto mt-8 px-4 lg:px-20">
+    <div className="container mx-auto mt-6 px-4 lg:px-20">
       <div className="flex justify-between items-center">
-        <h1 className="font-bold text-[32px]">Recipe Calories</h1>
-        <div className="flex justify-between items-center gap-8 *:text-[#150b2b84]">
+        <h1 className="font-bold text-xl lg:text-[32px]">Recipe Calories</h1>
+        <div className="flex justify-between items-center gap-8 *:text-[#150b2b84] hidden lg:flex">
           <a href="">Home</a>
           <a href="">Recipes</a>
           <a href="">About</a>
           <a href="">Search</a>
         </div>
         <div className="flex justify-center items-center gap-3">
-          <div className="flex justify-start bg-[#150b2b0b] rounded-3xl py-2 px-4">
+          <div className="flex justify-start bg-[#150b2b0b] rounded-3xl py-2 px-4 hidden lg:flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
