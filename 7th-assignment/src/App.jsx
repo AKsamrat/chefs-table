@@ -12,6 +12,7 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <Recipes></Recipes>
+      {/* <ToastContainer /> */}
     </div>
   );
 }
